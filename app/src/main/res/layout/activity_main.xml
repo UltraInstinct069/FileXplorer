@@ -1,0 +1,286 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="2dp"
+            android:text="____________  Category  ____________"
+            android:textAllCaps="true"
+            android:textColor="@color/titlecolor"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/apps2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/Item_app" />
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="APPS"
+            android:textColor="@color/textcolor"
+            android:id="@+id/textView"
+            android:layout_below="@+id/Item_app"
+            android:layout_alignLeft="@+id/Item_app"
+            android:layout_alignStart="@+id/Item_app" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:src="@drawable/image"
+            android:id="@+id/galle"
+            android:layout_alignTop="@+id/Item_app"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="IMAGE"
+            android:textColor="@color/textcolor"
+            android:id="@+id/textView1"
+            android:layout_below="@+id/galle"
+            android:layout_alignLeft="@+id/galle"
+            android:layout_alignStart="@+id/galle" />
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="15dp"
+            android:src="@drawable/videos"
+            android:id="@+id/Item_Video"
+            android:layout_alignTop="@+id/galle"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:gravity="center_horizontal"
+            android:text="VIDEOS"
+            android:textColor="@color/textcolor"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/Item_Video"
+            android:layout_toEndOf="@+id/galle"
+            android:layout_toRightOf="@+id/galle" />
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/music"
+            android:id="@+id/Item_music"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:layout_alignTop="@+id/textView"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="MUSIC"
+            android:textColor="@color/textcolor"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/Item_music"
+            android:layout_alignLeft="@+id/Item_music"
+            android:layout_alignStart="@+id/Item_music" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/download"
+            android:id="@+id/Download"
+            android:layout_alignTop="@+id/Item_music"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="DOWNLOADS"
+            android:textColor="@color/textcolor"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/Download"
+            android:layout_alignLeft="@+id/Download"
+            android:layout_alignStart="@+id/Download" />
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/document"
+            android:id="@+id/Item_documents"
+            android:layout_alignTop="@+id/Download"
+            android:layout_toRightOf="@+id/Download"
+            android:layout_toEndOf="@+id/Download" />
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="DOCUMENTS"
+            android:textColor="@color/textcolor"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/Item_documents"
+            android:layout_alignLeft="@+id/Item_documents"
+            android:layout_alignStart="@+id/Item_documents" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="35dp"
+            android:text="____________  Storage  ______________"
+            android:textColor="@color/titlecolor"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:id="@+id/textView6"
+            android:layout_below="@+id/Item_music"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Phone"
+            android:textColor="#080000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/textView7"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="15dp"
+            android:text="11.2 GB/16 GB"
+            android:textColor="#080000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/textView8"
+            android:layout_below="@+id/textView7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+
+
+        <ProgressBar
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:max="100"
+            android:minHeight="50dp"
+            android:minWidth="250dp"
+            android:padding="5dp"
+            android:progress="69"
+            android:progressBackgroundTint="@color/progressbackgroundTint"
+            android:progressTint="@color/progressTint"
+            android:visibility="visible"
+            android:id="@+id/progressBar"
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="SD Card"
+            android:textColor="#080000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/textView9"
+            android:layout_below="@+id/progressBar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="15dp"
+            android:text="4.9 GB/16 GB"
+            android:textColor="#080000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/textView10"
+            android:layout_below="@+id/textView9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />
+
+        <ProgressBar
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:max="100"
+            android:minHeight="50dp"
+            android:minWidth="250dp"
+            android:padding="5dp"
+            android:progress="31"
+            android:progressBackgroundTint="@color/progressbackgroundTint"
+            android:progressTint="@color/progressTint"
+            android:visibility="visible"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/SdCard" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+

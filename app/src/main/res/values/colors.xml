@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#944ffc</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="progressbackgroundTint">#c2c4c2</color>
+    <color name="progressTint">#25ff83</color>
+    <color name="textcolor">#223318</color>
+    <color name="titlecolor">#000000</color>
+    <color name="background">#cdf9ec</color>
+</resources>
